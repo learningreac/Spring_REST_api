@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @NoArgsConstructor(access=AccessLevel.PRIVATE, force=true)
 @Entity
-// @Table(name = "INGREDIENT")
+@Table(name = "INGREDIENT")
 public class Ingredient {
   
   @Id
@@ -21,8 +21,5 @@ public class Ingredient {
   private final String name;
   private final String type;
   
-//   public static enum Type {
-//     WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
-//   }
 }
 
