@@ -18,3 +18,8 @@ insert into Ingredient (id, name, type)
                 values ('SLSA', 'Salsa', 'SAUCE');
 insert into Ingredient (id, name, type) 
                 values ('SRCR', 'Sour Cream', 'SAUCE');
+
+insert into Student ( id, student_name, student_age) 
+                values (1, 'Ben', '10');
+insert into Student (id,  student_name,student_age) 
+                values (2, 'Amelia', '12');
